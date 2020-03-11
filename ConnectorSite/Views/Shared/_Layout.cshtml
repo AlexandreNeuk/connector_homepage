@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143780185-1"></script>
+    <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-143780185-1');
+    </script>
+
+    <!-- HTML5 -->
+    <meta charset="utf-8" />
+
+    <!-- Primary Meta Tags -->
+    <title>Connector &mdash; Ind&uacute;stria 4.0</title>
+    <meta name="title" content="Connector &mdash; Ind&uacute;stria 4.0">
+    <meta name="description" content="A Connector foi criada com o objetivo de facilitar a inser&ccedil;&atilde;o das empresas com a ind&uacute;stria 4.0. Sempre em busca de melhoria, tecnologia e inova&ccedil;&atilde;o esse &eacute; o nosso">
+    <meta name="keywords" content="Connector, IIoT, IoT, Ind&uacute;stria 4.0, Automa&ccedil;&atilde;o Ind&uacute;strial, Caxias do Sul, Serra ga&uacute;cha, Connector IoT">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://connector.ind.br/">
+    <meta property="og:title" content="Connector &mdash; Ind&uacute;stria 4.0">
+    <meta property="og:description" content="A Connector foi criada com o objetivo de facilitar a inser&ccedil;&atilde;o das empresas com a ind&uacute;stria 4.0. Sempre em busca de melhoria, tecnologia e inova&ccedil;&atilde;o esse &eacute; o nosso">
+    <meta property="og:image" content="http://connector.ind.br/connector_img_site.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="http://connector.ind.br/">
+    <meta property="twitter:title" content="Connector &mdash; Ind&uacute;stria 4.0">
+    <meta property="twitter:description" content="A Connector foi criada com o objetivo de facilitar a inser&ccedil;&atilde;o das empresas com a ind&uacute;stria 4.0. Sempre em busca de melhoria, tecnologia e inova&ccedil;&atilde;o esse &eacute; o nosso">
+    <meta property="twitter:image" content="http://connector.ind.br/connector_img_site.png">
+
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicons -->
+    <link href="img/favicon.png" rel="icon">
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--==========================
+    Header
+    ============================-->
+    <header id="header">
+
+        <div class="container">
+
+            <div class="logo float-left">
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!--<h1 class="text-light"><a href="#intro" class="scrollto"><span style="font-family: palermo;">connector</span></a></h1> -->
+                <a href="#header" class="scrollto"><img src="img/logo_connector.svg" style="margin-top: -53px; width: 245px;" alt="" class="img-fluid"></a>
+                <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
+            </div>
+
+            <nav class="main-nav float-right d-none d-lg-block">
+                <ul>
+                    <li class="active"><a href="#intro">Início</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#preco">Preços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav><!-- .main-nav -->
+
+        </div>
+    </header><!-- #header -->
+    <!--==========================
+      Intro Section
+    ============================-->
+
+    @RenderBody()
+
+    <!--==========================
+      Footer
+    ============================-->
+    <section id="contato" class="wow fadeInUp section-bg">
+
+        <header class="section-header">
+            <h3>Contato</h3>
+        </header>
+    </section>
+
+    <footer id="footer" class="section-bg">
+        <div class="footer-top">
+            <div class="container">
+ 
+                <div class="row">
+
+                    <div class="col-lg-6">
+
+                        <div class="row">
+
+                            <div class="col-sm-6">
+
+                                <div class="footer-info">
+                                    <h3>Connector</h3>
+                                    <p>Entre em contato conosco, a nossa equipe terá o maior prazer em atende-lo para quaisquer possíveis dúvidas em relação aos nossos produtos e serviços.</p>
+                                </div>
+
+                                <div class="footer-newsletter">
+                                    <h4>Nossa Newsletter</h4>
+                                    <p>Deixe aqui seu email e assine nossa newsletter e fique por dentro de nossas novidades.</p>
+                                    <form action="" method="post" role="form" class="newsLetterForm">
+                                        <input type="email" id="emailnews" data-rule="minlen:4" data-msg="Por favor informe o email"><input type="submit" id="subAssinar" value="Assinar">
+                                        <div style="color: red;" class="validationnews"></div>
+                                        <div id="sendmessagenews">Seu email foi enviado com sucesso. Obrigado!</div>
+                                        <div id="errormessagenews">Ocorreu um erro. Por favor tente novamente!</div>
+
+                                    </form>
+                                </div>
+
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="footer-links">
+                                    <h4>Links Úteis</h4>
+                                    <ul>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#about">Sobre Nós</a></li>
+                                        <li><a href="#services">Serviços</a></li>
+                                        <li><a href="#preco">Preços</a></li>
+                                        <li><a href="#contato">Contato</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="footer-links">
+                                    <h4>Contate-nos</h4>
+                                    <p>
+                                        Rua Dr. Montaury, 1092 <br>
+                                        Centro, Caxias do Sul - RS<br>
+                                        Brasil <br>
+                                        <strong>Email:</strong> comercial@connector.ind.br<br>
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="form">
+
+                            <h4>Envie-nos um mensagem</h4>
+                            <p>Ficaremos felizes em receber sua mensagem, dúvidas, críticas ou sugestões.</p>
+                            <form action="" method="post" role="form" class="contactForm">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Seu Nome" data-rule="minlen:4" data-msg="Por favor informe o nome" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" data-rule="email" data-msg="Por favor informe um email válido" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Por favor informe o assunto" />
+                                    <div class="validation"></div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" name="Mensagem" rows="5" data-rule="required" data-msg="Por favor informe sua mensagem" placeholder="Message"></textarea>
+                                    <div class="validation"></div>
+                                </div>
+
+                                <div id="sendmessage">Sua mensagem foi enviada com sucesso. Obrigado!</div>
+                                <div id="errormessage">Desculpe-nos, mas ocorreu um erro. Por favor tente novamente!</div>
+
+                                <div class="text-center"><button type="submit" title="Send Message">Enviar Mensagem</button></div>
+                            </form>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="copyright">
+                2019 &copy;<strong> Connector</strong>
+            </div>
+
+        </div>
+    </footer><!-- #footer -->
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    <!-- Uncomment below i you want to use a preloader -->
+    <!-- <div id="preloader"></div> -->
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/mobile-nav/mobile-nav.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+
+<script>
+    var tipo = 0;
+
+    function sendProspect(t) {
+        if (t) {
+            tipo = t;
+            $('#modelProposta').modal("show");
+            //
+            switch (t) {
+                case 1:
+                    $('#lblPorcpectTittle')[0].innerHTML = 'Plano Básico';
+                    break;
+                case 2:
+                    $('#lblPorcpectTittle')[0].innerHTML = 'Plano Padrão';
+                    break;
+                case 3:
+                    $('#lblPorcpectTittle')[0].innerHTML = 'Plano Premium';
+                    break;
+                case 4:
+                    $('#lblPorcpectTittle')[0].innerHTML = 'Plano Ultra';
+                    break;
+            }
+        }
+    }
+
+    function sendProspectSubmit() {
+        //
+        if (!document.getElementById('nomeproposta').value) {
+            //$('#diverro').css('color', 'red');
+            //$('#diverro').css('background', '#fff');
+            //$('#diverro').css('margin', '0em');
+            $('#diverro').attr("class", "proposta-campos-error");
+            document.getElementById('diverro').innerHTML = 'Por favor informe o nome';
+            return false;
+        }
+        //
+        if (!document.getElementById('empresaproposta').value) {
+            //$('#diverro').css('color', 'red');
+            //$('#diverro').css('background', '#fff');
+            //$('#diverro').css('margin', '0em');
+            $('#diverro').attr("class", "proposta-campos-error");
+            document.getElementById('diverro').innerHTML = 'Por favor informe o nome da empresa';
+            return false;
+        }
+        //
+        if (!document.getElementById('emailproposta').value) {
+            //$('#diverro').css('color', 'red');
+            //$('#diverro').css('background', '#fff');
+            //$('#diverro').css('margin', '0em');
+            $('#diverro').attr("class", "proposta-campos-error");
+            document.getElementById('diverro').innerHTML = 'Por favor informe o email';
+            return false;
+        }
+        //
+        if (!document.getElementById('telefoneproposta').value) {
+            //$('#diverro').css('color', 'red');
+            //$('#diverro').css('background', '#fff');
+            //$('#diverro').css('margin', '0em');
+            
+            $('#diverro').attr("class", "proposta-campos-error");
+            document.getElementById('diverro').innerHTML = 'Por favor informe o telefone';
+            return false;
+        }
+        //
+        document.getElementById('diverro').innerHTML = '';
+
+        action = 'home/Proposta?nome=' +
+            document.getElementById('nomeproposta').value + '&email=' +
+            document.getElementById('emailproposta').value + '&empresa=' +
+            document.getElementById('empresaproposta').value + '&telefone=' +
+            document.getElementById('telefoneproposta').value + '&plano=' + tipo;
+        //
+        $.ajax({
+            type: 'POST',
+            url: action,
+            success: function (msg) {
+                //
+                if (msg.data == 'ok') {
+                    //#
+                    $('#diverro').attr("class", "proposta-succes");
+                    //$('#diverro').css('color', '#fff');
+                    //$('#diverro').css('margin', '1em');
+                    ////: ;
+                    document.getElementById('diverro').innerHTML = 'Sua mensagem foi enviada com sucesso!';
+                    clearcontents();
+                } else {
+                    //$('#diverro').css('background', 'red');
+                    //$('#diverro').css('color', '#fff');
+                    //$('#diverro').css('margin', '1em');
+                    $('#diverro').attr("class", "proposta-error");
+                    document.getElementById('diverro').innerHTML = 'Ocorreu um erro. Por favor tente novamente!';
+                }
+            }
+        });
+    }
+
+    function clearcontents() {
+        document.getElementById('nomeproposta').value = '';
+        document.getElementById('emailproposta').value = '';
+        document.getElementById('empresaproposta').value = '';
+        document.getElementById('telefoneproposta').value = '';
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
